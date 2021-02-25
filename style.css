@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.container {
+  width: 200px;
+  height: 150px;
+  background-color: aqua;
+  border: 2px solid green;
+}
+
+.container button {
+  padding: 5px 20px;
+  margin: 70px 60px;
+  background-color: darkgrey;
+  color: navy;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  font: 800;
+}
+
+.container button:hover {
+  background-color: navy;
+  color: white;
+  font-weight: 800;
+  box-shadow: 2px 2px white;
+}
